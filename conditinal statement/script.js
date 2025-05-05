@@ -1,18 +1,20 @@
 // if
 // if else
-// if else if
 
-// let storedPassword = 12345;
-// let inputPassword = 12;
+// let storedPassword = 1234;
+// let typedPassword = 345;
 
-if (storedPassword == inputPassword) {
-  alert("password is correct");
+// if (storedPassword == typedPassword) {
+//   alert("password is correct");
+// } else {
+//   alert("password is incorrect");
+// }
+
+let average = 90;
+let studentScore = 70;
+
+if (studentScore < average) {
+  alert("You fail");
 } else {
-  alert("password incorrect");
-}
-
-if (20 < 10) {
-  alert("20 is less than 10");
-} else {
-  alert("it is not less than 10");
+  alert("You pass");
 }
