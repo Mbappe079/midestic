@@ -1,6 +1,3 @@
-// if
-// if else
-
 // let storedPassword = 1234;
 // let typedPassword = 345;
 
@@ -10,11 +7,24 @@
 //   alert("password is incorrect");
 // }
 
-let average = 90;
-let studentScore = 70;
+// let average = 90;
+// let studentScore = 70;
 
-if (studentScore < average) {
-  alert("You fail");
+// if (studentScore < average) {
+//   alert(`${studentScore} is less than ${average} so you fail`);
+// } else {
+//   alert("You pass");
+// }
+
+let storedUsername = parseInt(prompt("create username"));
+
+let inputUsername = parseInt(prompt("login with your username"));
+
+if (storedUsername == inputUsername) {
+  alert("password is correct");
 } else {
-  alert("You pass");
+  alert("recheck your input");
 }
+
+console.log(inputUsername);
+console.log(storedUsername);
