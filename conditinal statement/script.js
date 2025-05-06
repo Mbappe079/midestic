@@ -16,6 +16,7 @@
 //   alert("You pass");
 // }
 
+// Learning with the guys
 let storedUsername = parseInt(prompt("create username"));
 
 let inputUsername = parseInt(prompt("login with your username"));
