@@ -35,3 +35,20 @@
 // comsole.log(myStr.startsWith("Hello"));
 // console.log(myStr.endsWith("Hi"));
 // console.log(myStr);
+
+// Number Methods
+// let num = 42.678;
+// let strNum = "89.56";
+
+// console.log(num);
+// console.log(num.toString());
+// console.log(num.toFixed(2));
+// console.log(parseInt(strNum));
+// console.log(parseFloat(strNum));
+// console.log(isNaN("trtr"));
+
+// Math Method
+console.log(Math.PI);
+console.log(Math.round(41.673));
+
+console.log(Math.floor(42.9));
