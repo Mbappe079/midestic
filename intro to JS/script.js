@@ -50,5 +50,25 @@
 // Math Method
 console.log(Math.PI);
 console.log(Math.round(41.673));
+console.log(Math.ceil("42.9"));
 
 console.log(Math.floor(42.9));
+console.log(Math.max(12, 6, 7));
+console.log(Math.min(34, 5, 7));
+console.log(Math.pow(2, 10));
+console.log(Math.sqrt(144));
+console.log(Math.random() * 10000);
+console.log(Math.floor(Math.random() * 1000));
+
+// Objects
+
+let student = {
+  name: "Shade",
+  age: "34",
+  email: "Shade@gmail.com",
+};
+
+console.log(student);
+console.log(student.name);
+console.log(Object.keys(student));
+console.log(Object.values(student));
